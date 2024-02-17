@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1rem;
+  background-color: rgb(3, 3, 50);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: rgb(3, 3, 39);
+}
+
+.left{
+  font-size: 1.6rem;
+}
+
+nav ul{
+  
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 25px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+nav ul li a:hover{
+  color: rgb(128, 53, 199);
+  font-size: 1.35rem;
+}
+
+#element{
+  color: rgb(128, 53, 199);
+}
+
+.first-section{
+  margin: 110px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3rem;
+  align-items: center;
+}
+
+.first-section > div{
+  width: 30%; 
+}
+
+.button{
+  
+}
+
+.names{
+  color: rgb(171, 125, 213);
+}
+
+.container{
+  position: relative;
+  text-align: center;
+}
+
+.text-gray{
+  color: gray;
+  margin-bottom: 60px;
+}
+
+.my-photo{
+  opacity: 20%;
+}
+
+main hr{
+  border: 0;
+  background: grey;
+  height: 1.2px;
+  margin: 30px 84px;
+}
+
+.left-section{
+  font-size: 2.3rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-section img{
+  width: 80%;
+}
+
+.second-section{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.second-section h1{
+  font-size: 1.6rem;
+}
+
+.second-section .box{
+  background: whitesmoke;
+  width: 80vw;
+  height: 2px;
+  margin: 100px 0px 56px;
+  display: flex;
+} 
+
+.second-section .verti-lines{
+  height: 45px;
+  width: 1px;
+  background: rgb(107, 103, 103);
+  margin: 0 100px;
+}
+
+.img-top{
+  width: 30px;
+  position: relative;
+  top: -37px;
+  left: -14px;
+}
+
+.vertical-text{
+  position: relative;
+  top: 6px;
+  left: -19px;
+}
+
+/* for js - as it was giving some issues so i had to write its css seperately*/
+
+.second-section .verti-linesjs{
+  height: 45px;
+  width: 1px;
+  background: rgb(107, 103, 103);
+  margin: 0 100px;
+}
+
+.img-topjs{
+  width: 51px;
+  position: relative;
+  top: -35px;
+  left: -24px;
+}
+
+.vertical-textjs{
+  position: relative;
+  top: 6px;
+  left: -36px;
+}
+
+footer{
+  background-color: #030327;
+  height: 233px;
+}
+
+.footer{
+  max-width: 80vw;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer li{
+  list-style: none;
+}

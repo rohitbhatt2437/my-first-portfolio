@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inconsolata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital@1&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rohit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">about</a></li>
+            <li><a href="/">services</a></li>
+            <li><a href="/">projects</a></li>
+            <li><a href="/">contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="first-section">
+          <div class="container">
+            <div class="my-photo">
+              <img src="./assets/me-removebg-preview.png" alt="" />
+            </div>
+            <div class="left-section">
+              Hi, my name is <span class="names">Rohit</span>
+              <div>And I am a passionate</div>
+              <span id="element"></span>
+            </div>
+          </div>
+          <div class="right-section"><img src="./assets/dev.png" alt="" /></div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="second-section">
+          <span class="text-gray">What I have done so far</span>
+          <br />
+          <div class="box">
+            <div class="verti-lines">
+              <img class="img-top" src="./assets/htmp.png" alt="" />
+              <div class="vertical-text">HTML</div>
+            </div>
+            <div class="verti-lines">
+              <img class="img-top" src="./assets/css.png" alt="" />
+              <div class="vertical-text">CSS</div>
+            </div>
+            <div class="verti-linesjs">
+              <img
+                class="img-topjs"
+                src="./assets/javascript-39395.png"
+                alt=""
+              />
+              <div class="vertical-textjs">JavaScript</div>
+            </div>
+            <div class="verti-lines">
+              <img class="img-top" src="./assets/reactp.png" alt="" />
+              <div class="vertical-text">ReactJs</div>
+            </div>
+            <div class="verti-lines">
+              <img class="img-top" src="./assets/nodep.png" alt="" />
+              <div class="vertical-text">NodeJs</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="first-footer">
+            <h3>Rohit's Developer portfolio</h3>
+          </div>
+          <div class="seccond-footer">
+            <ul>
+              <li>Contact</li>
+              <li>95012XXXXX</li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <ul>
+              <li>mail</li>
+              <li>rohitbhatt3241@gmail.com</li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <ul>
+              <li>Linkedin</li>
+              <li>
+                <a href="http://www.linkedin.com/in/rohit-bhatt-509807210"
+                  >rohitbhatt</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Programmer.", "Web Developer.", "Full Stack Developer."],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>
